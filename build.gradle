@@ -91,10 +91,10 @@ subprojects {
   }
 
   dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-web:2.1.8.RELEASE'
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.5.2'
 
     testImplementation rootProject.sourceSets.main.output
-    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.2.1.RELEASE'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.5.2'
 
     if (project.name != "shared") {
       implementation project(":shared")
@@ -117,7 +117,7 @@ buildscript {
     mavenCentral()
   }
   dependencies {
-    classpath('org.springframework.boot:spring-boot-gradle-plugin:2.2.1.RELEASE')
+    classpath('org.springframework.boot:spring-boot-gradle-plugin:2.5.2')
   }
 }
 
