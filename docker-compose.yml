@@ -29,7 +29,7 @@ services:
 
   elasticsearch:
     container_name: codelytv-java_ddd_skeleton-elasticsearch
-    image: 'elasticsearch:7.13.4'
+    image: 'elasticsearch:7.14.2'
     restart: unless-stopped
     ports:
       - 9300:9300
