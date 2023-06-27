@@ -27,7 +27,7 @@ allprojects {
     implementation 'com.vlkan.log4j2:log4j2-logstash-layout:1.0.5'
     implementation 'io.github.cdimascio:java-dotenv:5.2.2'
 
-    implementation 'org.hibernate:hibernate-core:5.6.12.Final'
+    implementation 'org.hibernate:hibernate-core:6.2.5.Final'
     implementation 'org.springframework:spring-orm:5.3.28'
     implementation 'org.apache.tomcat:tomcat-dbcp:10.1.0'
     implementation 'com.sun.xml.bind:jaxb-impl:4.0.3'
