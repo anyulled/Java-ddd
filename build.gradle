@@ -36,7 +36,7 @@ allprojects {
     implementation 'org.freemarker:freemarker-gae:2.3.31'
     implementation 'org.reflections:reflections:0.10.2'
     implementation 'org.springframework.boot:spring-boot-starter-amqp'
-    implementation 'org.elasticsearch.client:elasticsearch-rest-client:7.17.10'
+    implementation 'org.elasticsearch.client:elasticsearch-rest-client:8.8.1'
     implementation 'org.elasticsearch.client:elasticsearch-rest-high-level-client:7.17.6'
     runtime 'mysql:mysql-connector-java:8.0.27'
 
