@@ -91,10 +91,10 @@ subprojects {
   }
 
   dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-web:2.7.4'
+    implementation 'org.springframework.boot:spring-boot-starter-web:3.2.2'
 
     testImplementation rootProject.sourceSets.main.output
-    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.7.4'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:3.2.2'
 
     if (project.name != "shared") {
       implementation project(":shared")
@@ -117,7 +117,7 @@ buildscript {
     mavenCentral()
   }
   dependencies {
-    classpath('org.springframework.boot:spring-boot-gradle-plugin:2.7.4')
+    classpath('org.springframework.boot:spring-boot-gradle-plugin:3.2.2')
   }
 }
 
@@ -143,13 +143,13 @@ bootJar {
 mainClassName = 'tv.codely.apps.Starter'
 
 dependencies {
-  implementation 'org.springframework.boot:spring-boot-starter-web:2.7.4'
+  implementation 'org.springframework.boot:spring-boot-starter-web:3.2.2'
 
   implementation project(":shared")
   implementation project(":backoffice")
   implementation project(":mooc")
 
-  testImplementation 'org.springframework.boot:spring-boot-starter-test:2.7.4'
+  testImplementation 'org.springframework.boot:spring-boot-starter-test:3.2.2'
   testImplementation project(":shared").sourceSets.test.output
 }
 
